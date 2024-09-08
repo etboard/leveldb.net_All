@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>LevelDB.Standard</id>
+    <id>LevelDB.Net_All</id>
     <version>$Version$</version>
-    <title>Level DB for .Net Standard</title>
-    <authors>oodrive</authors>
-    <owners>oodrive</owners>
+    <title>Level DB for .Net All</title>
+    <authors>etboard</authors>
+    <owners>etboard</owners>
+	<readme>README.md</readme>
 	<license type="file">license.txt</license>
-    <projectUrl>https://github.com/oodrive/leveldb.net</projectUrl>
+    <projectUrl>https://github.com/etboard/leveldb.net_All</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Cross platform LevelDB package for .Net Standard</description>
-    <copyright>Copyright 2019</copyright>
+    <description>Cross platform LevelDB package for .Net All</description>
+    <copyright>Copyright 2024</copyright>
     <tags>LevelDB</tags>
 	<repository type="git" url="https://github.com/oodrive/leveldb.net" />
 	<dependencies>
@@ -22,6 +23,7 @@
   <files>
   
 	<file src="license.txt" target="" />
+	<file src="README.md" target="" />
 	
 	<!-- Libraries for .Net 4 -->
 	<file src="Leveldb.net\bin\Release\net4\**\*.dll" target="lib\net4" />
