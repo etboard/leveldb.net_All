@@ -54,9 +54,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Leveldb.net\LevelDB.NET.csproj">
+    <ProjectReference Include="..\Leveldb.net\LevelDB.NET_All.csproj">
       <Project>{66b68f7d-bd4c-4080-9db9-c0e03d58e171}</Project>
-      <Name>LevelDB.NET</Name>
+      <Name>LevelDB.NET_All</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
