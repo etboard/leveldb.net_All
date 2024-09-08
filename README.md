@@ -1,3 +1,11 @@
+# Updates #
+
+This repository is a fork of the original repository available at [https://github.com/oodrive/leveldb.net](https://github.com/oodrive/leveldb.net). Unlike the original, which only supported up to .NET 2, this fork has been updated to support all modern .NET versions.
+
+Additionally, an example demonstrating the use of LevelDB with Arduino IDE V2 has been added. You can find this example in the [`examples` folder](./examples).
+
+The usage instructions in the original README were incorrect, so I have corrected them. These corrections were originally submitted as a Pull Request (PR) to the original repository and are now reflected in this forked repository.
+
 # leveldb for Windows and .NET #
 
 ----------
@@ -64,7 +72,7 @@ leveldb provides the Get, Put and Delete methods to query, update and delete dat
 const string key = "New York";
 
 // Put in the key value
-keyValue.Put(key, "blue");
+db.Put(key, "blue");
 
 // Print out the value
 var keyValue = db.Get(key);
@@ -151,9 +159,9 @@ The following example shows how you can iterate all the keys as strings.
 using (var iterator = db.CreateIterator())
 {
 	// Iterate to print the keys as strings
-	for (it.SeekToFirst(); it.IsValid(); it.Next()) 
+	for (iterator.SeekToFirst(); iterator.IsValid(); iterator.Next()) 
 	{
-	    Console.WriteLine("Key as string: {0}", it.KeyAsString());
+	    Console.WriteLine("Key as string: {0}", iterator.KeyAsString());
 	}
 }
 ```
@@ -165,7 +173,7 @@ The next example shows how you can iterate all the values in the leveldb instanc
 using (var iterator = db.CreateIterator())
 {
 	// Iterate in reverse to print the values as strings
-	for (it.SeekToLast(); it.IsValid(); it.Prev()) 
+	for (iterator.SeekToLast(); iterator.IsValid(); iterator.Prev()) 
 	{
 	    Console.WriteLine("Value as string: {0}", it.ValueAsString());
 	}
