@@ -10,10 +10,10 @@
 - LevelDB.NET_All      : 진짜 LevelDB.NET_All 프로젝트
 - leveldb.x64          : LevelDB.NET_All에서 참조하는 진짜 leveldb
 - leveldb.x86          : LevelDB.NET_All에서 참조하는 진짜 leveldb
-- test_leveldb_net     : LevelDB.NET_All를 테스트하는 프로젝트
+- test_leveldb_net6     : LevelDB.NET_All를 테스트하는 프로젝트
 
 # Folders #
-- examples : LevelDB.NET_All을 사용하는 예제 프로젝트, test_leveldb_net
+- examples : LevelDB.NET_All을 사용하는 예제 프로젝트, test_leveldb_net6
 - Package  : LevelDB.NET_All을 NuGet으로 배포하기 위한 패키지 저장 폴더, 여기에 있는 것 업로드하면 됨
 - runtimes : leveldb.x64, leveldb.x86 프로젝트에서 생성된 파일들을 저장하는 폴더
 
