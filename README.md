@@ -2,9 +2,11 @@
 
 This repository is a fork of the original repository available at [https://github.com/oodrive/leveldb.net](https://github.com/oodrive/leveldb.net). Unlike the original, which only supported up to .NET 2, this fork has been updated to support all modern .NET versions.
 
+The current source repository is available at [https://github.com/etboard/leveldb.net_All](https://github.com/etboard/leveldb.net_All).
+
 Additionally, an example demonstrating the use of LevelDB with Arduino IDE V2 has been added. You can find this example in the [`examples` folder](./examples).
 
-The usage instructions in the original README were incorrect, so I have corrected them. These corrections were originally submitted as a Pull Request (PR) to the original repository and are now reflected in this forked repository.
+The usage instructions in the original README were incorrect and have been updated accordingly.
 
 # leveldb for Windows and .NET #
 

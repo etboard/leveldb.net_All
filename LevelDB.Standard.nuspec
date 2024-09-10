@@ -13,7 +13,7 @@
     <description>Cross platform LevelDB package for .Net All</description>
     <copyright>Copyright 2024</copyright>
     <tags>LevelDB</tags>
-	<repository type="git" url="https://github.com/oodrive/leveldb.net" />
+	<repository type="git" url="https://github.com/etboard/leveldb.net_All" />
 	<dependencies>
 	  <group targetFramework=".NETFramework4" />
       <group targetFramework="netstandard2.0" />
